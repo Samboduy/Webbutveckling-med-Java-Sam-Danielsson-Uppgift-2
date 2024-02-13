@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    height:100%;
+    min-height: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    max-width: 100%;
+    height:100%;
+    min-height: 100%;
+    margin:0px;
+    padding:0px
+}
+
+.container{
+    display:flex;
+    max-width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.form-cont{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+.nav-cont{
+    display:flex;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-self: flex-start;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap:wrap;
+}
+a{
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+    color: darkorange;
+}
+.table-cont{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.table-course-cont{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    border: solid 1px;
+    margin-right:10px;
+}
+th{
+    border: solid 1px;
+}
+td{
+    border: solid 1px;
+}
+tr{
+    border: solid 1px;
+}
+.text{
+    display:flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+body{
+    background-color: blanchedalmond;
+}
+.bt-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+.alert {
+    padding: 20px;
+    background-color:red; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
